@@ -276,9 +276,16 @@ p {
 	max-height: 450px;
 }
 
+.features__card-content {
+	gap: 16px;
+	display: flex;
+	flex-direction: column;
+}
+
 .features__card-content,
 .features__card > div:not(.features__card-image) {
 	width: 50%;
+	
 
 	@media (max-width: 1440px) {
 		width: 100%;
@@ -296,7 +303,7 @@ p {
 	margin-bottom: 16px;
 	line-height: 1.5;
 	gap: 16px;
-	margin-top: 10px;
+	
 }
 
 .cases {
