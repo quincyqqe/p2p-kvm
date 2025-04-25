@@ -276,21 +276,21 @@ p {
 	max-height: 450px;
 }
 
-.features__card-content {
-	gap: 16px;
-	display: flex;
-	flex-direction: column;
-}
-
 .features__card-content,
 .features__card > div:not(.features__card-image) {
-	width: 50%;
-	
-
-	@media (max-width: 1440px) {
-		width: 100%;
-	}
+  width: 50%;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
 }
+
+@media (max-width: 1440px) {
+  .features__card-content,
+  .features__card > div:not(.features__card-image) {
+    width: 100%;
+  }
+}
+
 
 .features__card img {
 	width: auto;
